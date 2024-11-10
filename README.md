@@ -4,7 +4,6 @@ This project aims to build a machine learning model for predicting types of colo
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Setup and Requirements](#setup-and-requirements)
 - [Workflow](#workflow)
   - [1. Data Loading](#1-data-loading)
   - [2. Data Merging](#2-data-merging)
@@ -21,13 +20,6 @@ This project aims to build a machine learning model for predicting types of colo
 ## Project Overview
 
 This project combines two colon cancer datasets for predicting cancer types. By merging and transforming the datasets, applying feature engineering, and training various machine learning models, this project aims to create a predictive model for colon cancer.
-
-## Setup and Requirements
-
-Install dependencies with:
-```bash
-pip install -r requirements.txt
-```
 
 ## Workflow
 
