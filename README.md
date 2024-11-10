@@ -84,7 +84,7 @@ Each model’s performance on the test set is compared to identify the best-perf
 
 ### 7. Prediction and Testing on Unseen Data
 
-The final, best-performing model is then tested on an unseen dataset. This step simulates real-world deployment and provides a realistic view of the model’s predictive capabilities when applied to new data. The unseen data undergoes the same preprocessing steps as the training data to ensure consistency.
+The final, best-performing model is then tested on an unseen dataset. This step simulates real-world deployment and provides a realistic view of the model’s predictive capabilities when applied to new data. The unseen data undergoes the same preprocessing steps as the training data to ensure consistency. I have created a new unseen data which is located into the unseen csv file to check the prediction of the model.
 
 The predictions are analyzed and compared to known values (if available) to gauge accuracy. This validation step is critical for verifying that the model generalizes well and can be reliably used for future predictions in real-world scenarios.
 
