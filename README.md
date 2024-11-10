@@ -94,9 +94,9 @@ The predictions are analyzed and compared to known values (if available) to gaug
 
 After completing model training and evaluation, the following metrics were recorded for the final model:
 
-RMSE:  0.175542
-MAE: 0.020875
-R-squared: 0.984095
+RMSE:  0.175542 <br>
+MAE: 0.020875 <br>
+R-squared: 0.984095 <br>
 These metrics demonstrate the model’s effectiveness in predicting the target variable accurately. The low RMSE and MAE values indicate that the model is well-calibrated, while a high R-squared suggests strong explanatory power.
 
 ## Conclusion
