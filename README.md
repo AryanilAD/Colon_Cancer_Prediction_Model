@@ -97,6 +97,7 @@ After completing model training and evaluation, the following metrics were recor
 RMSE:  0.175542 <br>
 MAE: 0.020875 <br>
 R-squared: 0.984095 <br>
+<br>
 These metrics demonstrate the model’s effectiveness in predicting the target variable accurately. The low RMSE and MAE values indicate that the model is well-calibrated, while a high R-squared suggests strong explanatory power.
 
 ## Conclusion
