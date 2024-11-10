@@ -1,0 +1,6 @@
+Age,CEA Level,Colonoscopy Result,Polyp Size (mm),Family History,Tumor Grade,Biopsy Result,Lymph Node Involvement,Bowel Obstruction,Smoking History
+55,71.95330875845752,Normal,5,No,2,Positive,No,No,No
+51,72.92857423006409,Normal,4,No,4,Negative,No,Yes,No
+48,66.56191857496448,Abnormal,2,Yes,3,Positive,Yes,Yes,Yes
+31,20.17968184220128,Abnormal,4,No,2,Positive,No,No,No
+58,27.19645708826167,Normal,5,Yes,4,Positive,Yes,No,Yes
