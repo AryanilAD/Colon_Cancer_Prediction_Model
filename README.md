@@ -75,9 +75,13 @@ With a refined dataset, we split the data into training and testing sets. This s
   
 - **Training**: Each model is trained on the training set using the selected features. Hyperparameter tuning is performed to optimize the model’s predictive accuracy.
 
-![Screenshot 2024-11-10 151244](https://github.com/user-attachments/assets/a912a793-c7d9-4ff0-b78c-c258797335f9)
+<h3>Random Forest Regressor</h3>
+![image](https://github.com/user-attachments/assets/d2bb781d-3887-497b-aa9a-21289186a10c)
 
-  
+<h3>Linear Regression</h3>
+![image](https://github.com/user-attachments/assets/77f4cb9a-eb48-4fa1-94e7-66f5ab1d4ba0)
+
+
 - **Evaluation Metrics**: Since this is a prediction task, models are evaluated using metrics such as Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE), which provide insight into the model’s accuracy in predicting continuous values. RMSE is particularly useful here as it penalizes larger errors, which is important in medical predictions where accuracy is critical.
 
 Each model’s performance on the test set is compared to identify the best-performing model. RMSE and MAE scores are recorded for each model to aid in final selection.
