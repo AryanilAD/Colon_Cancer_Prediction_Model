@@ -71,7 +71,7 @@ The resulting set of features balances predictive power with simplicity, aiming 
 
 With a refined dataset, we split the data into training and testing sets. This split allows for model evaluation on data it hasn’t seen during training, giving an unbiased estimate of model performance.
 
-- **Model Selection**: Several regression models are tested, including Linear Regression, Decision Trees, and Random Forest Regressor. These models are chosen for their different approaches to capturing relationships within the data.
+- **Model Selection**: Two regression models are tested, including Linear Regression, and Random Forest Regressor. These models are chosen for their different approaches to capturing relationships within the data.
   
 - **Training**: Each model is trained on the training set using the selected features. Hyperparameter tuning is performed to optimize the model’s predictive accuracy.
 
@@ -84,20 +84,18 @@ Each model’s performance on the test set is compared to identify the best-perf
 
 ### 7. Prediction and Testing on Unseen Data
 
-The final, best-performing model is then tested on an unseen dataset. This step simulates real-world deployment and provides a realistic view of the model’s predictive capabilities when applied to new data. The unseen data undergoes the same preprocessing steps as the training data to ensure consistency. I have created a new unseen data which is located into the unseen csv file to check the prediction of the model.
+The final, best-performing model is then tested on an unseen dataset. This step simulates real-world deployment and provides a realistic view of the model’s predictive capabilities when applied to new data. The unseen data undergoes the same preprocessing steps as the training data to ensure consistency. I have created a new unseen data which is located into the unseen csv file to check the prediction of the model. in my analysis Random Forrest Regressor is working better on unseen data rather than linear Regression.
 
-The predictions are analyzed and compared to known values (if available) to gauge accuracy. This validation step is critical for verifying that the model generalizes well and can be reliably used for future predictions in real-world scenarios.
-
----
 
 ## Results
 
 After completing model training and evaluation, the following metrics were recorded for the final model:
 
-RMSE:  0.175542 <br>
-MAE: 0.020875 <br>
-R-squared: 0.984095 <br>
-<br>
+                           Metric  Random Forest Regressor  Linear Regression
+0       Mean Absolute Error (MAE)                 0.020875           0.604839
+1  Root Mean Squared Error (RMSE)                 0.175542           0.729697
+2                              R²                 0.984095           0.072261
+
 These metrics demonstrate the model’s effectiveness in predicting the target variable accurately. The low RMSE and MAE values indicate that the model is well-calibrated, while a high R-squared suggests strong explanatory power.
 
 ## Conclusion
