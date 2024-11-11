@@ -84,17 +84,14 @@ Each model’s performance on the test set is compared to identify the best-perf
 
 ### 7. Prediction and Testing on Unseen Data
 
-The final, best-performing model is then tested on an unseen dataset. This step simulates real-world deployment and provides a realistic view of the model’s predictive capabilities when applied to new data. The unseen data undergoes the same preprocessing steps as the training data to ensure consistency. I have created a new unseen data which is located into the unseen csv file to check the prediction of the model. in my analysis Random Forrest Regressor is working better on unseen data rather than linear Regression.
-
+The final, both the model is then tested on an unseen dataset. This step simulates real-world deployment and provides a realistic view of the model’s predictive capabilities when applied to new data. The unseen data undergoes the same preprocessing steps as the training data to ensure consistency. I have created a new unseen data which is located into the unseen csv file to check the prediction of the model. in my analysis Random Forrest Regressor is working better on unseen data rather than linear Regression.
 
 ## Results
 
 After completing model training and evaluation, the following metrics were recorded for the final model:
 
-                           Metric  Random Forest Regressor  Linear Regression
-0       Mean Absolute Error (MAE)                 0.020875           0.604839
-1  Root Mean Squared Error (RMSE)                 0.175542           0.729697
-2                              R²                 0.984095           0.072261
+![image](https://github.com/user-attachments/assets/24758232-7b6a-4243-9d59-22bd0b893361)
+
 
 These metrics demonstrate the model’s effectiveness in predicting the target variable accurately. The low RMSE and MAE values indicate that the model is well-calibrated, while a high R-squared suggests strong explanatory power.
 
